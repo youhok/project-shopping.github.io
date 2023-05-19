@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&family=Montserrat:wght@100&family=Nunito:wght@200;300;400;600;700&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;1,300&family=Sofia+Sans+Semi+Condensed:ital,wght@1,200&display=swap');
+
+
+body{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+
+
+.product-image{
+    width: 200px;
+    height: 200px;
+   margin: auto;
+}
+
+.cart-side-bar{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.pic img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.remove{
+    position: absolute;
+    right: 0;
+    margin: 5px;
+}
+
+.cart-product-image img{
+    height: 110px;
+}
+
+
+@media (max-width: 414px) { 
+    .carts .pic{
+       height: 150px;
+       width: 150px;
+    }
+
+ }
+
+
+ @media (max-width: 992px) { 
+    .hide-side-bar{
+        display: none;
+    }
+
+ }
+ @media (min-width: 992px) { 
+    .navbar-toggler{
+        display: none;
+    }
+
+ }
