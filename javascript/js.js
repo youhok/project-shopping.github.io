@@ -105,7 +105,7 @@ function getCartList() {
 
               <div class="cart-product-image bg-body-secondary d-flex justify-content-sm-center h-">
               <button type="button" class="remove btn btn-danger rounded-circle p-2 lh-1" id="remove" onclick="removeProductFromCart(${i})"><i class="bi bi-trash3"></i></button>
-                <img src="../image/${carts[i].img}" alt="" srcset="" class="img-fluid">
+                <img src="image/${carts[i].img}" alt="" srcset="" class="img-fluid">
               </div>
 
             </div>
@@ -134,7 +134,7 @@ function getCartList() {
 
                   <div class="cart-product-image bg-body-secondary d-flex justify-content-sm-center">
                   <button type="button" class="remove btn btn-danger rounded-circle p-2 lh-1" id="remove" onclick="removeProductFromCart(${i})"><i class="bi bi-trash3"></i></button>
-                    <img src="../image/${carts[i].img}" alt="" srcset=""  class="img-fluid">
+                    <img src="image/${carts[i].img}" alt="" srcset=""  class="img-fluid">
                   </div>
   
                 </div>
